@@ -1,7 +1,7 @@
 {
   "name": "shop-here-orm-e-commerce-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "An e-commerce site that started as a working Express.js API and was configured to use Sequelize to interact with a MySQL db.  ",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
