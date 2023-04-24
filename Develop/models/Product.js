@@ -50,10 +50,10 @@ Product.init(
       // belongTo = create a foreign key reference in Product model to the Category model
       references: {
         model: 'category',
-        key: 'id',
+        key: 'id'
       }
     }
-    
+
   },
   {
     sequelize,
