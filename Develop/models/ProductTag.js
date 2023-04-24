@@ -44,9 +44,4 @@ ProductTag.init(
   }
 );
 
-//Define the association between the ProductTag and Product models
-ProductTag.belongsTo(Product, { foreignKey: 'product_id'});
-//Define the association between the ProductTag and Tag models
-ProductTag.belongsTo(Tag, { foreignKey: 'tag_id'});
-
 module.exports = ProductTag;
