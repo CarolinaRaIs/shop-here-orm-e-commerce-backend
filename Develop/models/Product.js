@@ -47,7 +47,7 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       // category_id references the category model's id (references the id column in the category table)
-      // belongTo = create a foreign key reference in Product model to the Category model
+      // will be referenced in index.js with belongTo = create a foreign key (category_id) reference in Product model to the Category model
       references: {
         model: 'category',
         key: 'id'
@@ -63,8 +63,5 @@ Product.init(
     modelName: 'product',
   }
 );
-
-//Define the association between the Product and Category models
-Product.belongsTo(Category, { foreignKey: 'category_id'});
 
 module.exports = Product;

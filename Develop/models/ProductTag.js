@@ -28,6 +28,7 @@ ProductTag.init(
     tag_id: {
       type: DataTypes.INTEGER,
       // references the tag model's id
+      //will be referenced in index.js with foreign key tag_id
       references: {
         model: 'tag',
         key: 'id'
