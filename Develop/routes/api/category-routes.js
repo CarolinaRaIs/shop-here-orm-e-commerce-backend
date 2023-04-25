@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
     // Then it will return the list of categories in JSON format 
     // to the client with a 200 status code
     res.json(categories);  
-  } catch (error) {
+  } catch (err) {
     res.status(500).json(err)
   }
 });
