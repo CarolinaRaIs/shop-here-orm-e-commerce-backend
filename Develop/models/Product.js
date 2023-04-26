@@ -20,7 +20,11 @@ Product.init(
 
     product_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+      // add notNull validation rule
+      validate: {
+        notNull: true
+      }
     },
     
     price: {
@@ -29,6 +33,8 @@ Product.init(
       allowNull: false,
       // isDecimal = (Sequalize validator) checks that the value is a decimal number
       validate: {
+        // add notNull validation rule
+        notNull:true,
         isDecimal: true
       }
     },

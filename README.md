@@ -65,8 +65,8 @@
     
     * When done testing you can stop the application by pressing CTRL + C in your terminal.
 
-
-![plot](./note-taker-example.png)
+Example of testing a route in Insomnia:
+![plot](./insomnia-test-example.png)
 
     To access the Github Repository visit:
        https://github.com/CarolinaRaIs/shop-here-orm-e-commerce-backend

@@ -96,7 +96,7 @@ router.delete('/:id', async(req, res) => {
       }
     });
 
-    if (updatedTag) {
+    if (deletedTag) {
       res.json(deletedTag);
     } else {
       res.status (404).json({err: "No tag with this ID"});
