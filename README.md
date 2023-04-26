@@ -72,7 +72,7 @@
        https://github.com/CarolinaRaIs/shop-here-orm-e-commerce-backend
 
     To access the deployed site visit:
-
+        https://carolinarais.github.io/shop-here-orm-e-commerce-backend/ 
 
 ## [License:](#license:)
 
