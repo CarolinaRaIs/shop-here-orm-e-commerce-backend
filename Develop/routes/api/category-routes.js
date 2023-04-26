@@ -61,8 +61,7 @@ router.post('/', async (req, res) => {
   try {
     const newCategory = await Category.create({
       //ARGUMENT:
-      // category_name: req.body.category_name creates a JavaScript object 
-      // that represents a new row that is going to be inserted into the Category table.
+      // category_name: Snake-case to name db columns- referenced from Category.js model
       // category_name = the value provided in the request body, which represents the name of the new category
       category_name: req.body.category_name
     });
