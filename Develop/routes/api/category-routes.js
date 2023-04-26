@@ -63,7 +63,7 @@ router.post('/', async (req, res) => {
       //ARGUMENT:
       // category_name: Snake-case to name db columns- referenced from Category.js model
       // category_name = the value provided in the request body, which represents the name of the new category
-      category_name: req.body.category_name
+      category_name: 'some category name'
     });
     res.json(newCategory);
   } catch (err) {
