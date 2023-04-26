@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
-// In insomnia: GET http://localhost:3002/api/category
-// category = modelName in Category.js model
+// In insomnia: GET http://localhost:3002/api/categories
+// categories = function that is used for insomnia link
 router.get('/', async (req, res) => {
   // find all categories
   // be sure to include its associated Products
@@ -25,7 +25,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// In insomnia: GET http://localhost:3002/api/category/:id
+// In insomnia: GET http://localhost:3002/api/categories/:id
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
@@ -55,7 +55,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// In insomnia: POST http://localhost:3002/api/category
+// In insomnia: POST http://localhost:3002/api/categories
 router.post('/', async (req, res) => {
   // create a new category
   try {
@@ -71,7 +71,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// In insomnia: PUT http://localhost:3002/api/category/:id
+// In insomnia: PUT http://localhost:3002/api/categories/:id
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
@@ -94,7 +94,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// In insomnia: DELETE http://localhost:3002/api/category/:id
+// In insomnia: DELETE http://localhost:3002/api/categories/:id
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   try {
