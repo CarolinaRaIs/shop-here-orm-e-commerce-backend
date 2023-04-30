@@ -68,6 +68,8 @@
 Example of testing a route in Insomnia:
 ![plot](./insomnia-test-example.png)
 
+[Video Walk-through: Testing Routes In Insomnia](https://drive.google.com/file/d/1jrcaVYFqHufM4ovCH7TUHCeH83FJPhkV/view?usp=share_link)
+
     To access the Github Repository visit:
        https://github.com/CarolinaRaIs/shop-here-orm-e-commerce-backend
 
